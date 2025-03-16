@@ -36,3 +36,15 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# 忽略编译文件
+target/
+bin/
+*.class
+
+# 忽略日志文件
+*.log
+
+# 忽略 Maven/Gradle 缓存
+.mvn/
+.gradle/
